@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "monokai-pro",
+  colorscheme = "catppuccin",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -60,7 +60,7 @@ return {
     performance = {
       rtp = {
         -- customize default disabled vim plugins
-        disabled_plugins = { "tohtml", "gzip", "matchit", "zipPlugin", "netrwPlugin", "tarPlugin" },
+        disabled_plugins = { "tohtml", "gzip", "matchit", "zipPlugin", "netrwPlugin", "tarPlugin", },
       },
     },
   },
